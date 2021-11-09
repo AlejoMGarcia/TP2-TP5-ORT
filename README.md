@@ -12,8 +12,11 @@ Realizar un servidor (utilizando node + express) que permita las siguientes oper
    5. Modificación de un estudiante, identificándolo por id.
    6. Baja de un estudiante, identificándolo por id.
    
-2. Documentación del servidor
+2. Documentación del servidor 
 Confeccionar la documentación de APIs. Esta debe incluir todos los puntos de acceso al programa, detallando el comportamiento esperado, tanto en sus casos de éxito, como en sus casos de fallo esperados.
+   
+**Para acceder a toda la documentación de las APIs acceder a:**
+_https://<app_host>:<app_port>/api-docs_
 
 ## Link al repositorio
 https://github.com/AlejoMGarcia/estadisticas-deportivas

@@ -21,6 +21,15 @@ const validarDocumento = (documento) => {
         throw new EstudianteError('El apellido no puede estar vacia') 
 }
 
+/**
+ * @typedef Estudiante
+ * @property {string} id - Id autogenerado - eg: 1234
+ * @property {string} nombre.required - Nombre del estudiante - eg: Alejo
+ * @property {string} apellido.required - Apellido del estudiante - eg: Garcia
+ * @property {string} mombreCompleto - Nombre completo autogenerado - eg: Alejo Garcia
+ * @property {string} dni.required - DNI del estudiante - eg: 35937384
+ * @property {string} edad.required - Edad del estudiante - eg: 35
+ */
 const Estudiante = function(nombre, apellido, dni, edad) {
     this.id = uuidv4(),
     this.nombre = nombre,
