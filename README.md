@@ -19,4 +19,4 @@ Confeccionar la documentación de APIs. Esta debe incluir todos los puntos de ac
 _https://<app_host>:<app_port>/api-docs_
 
 ## Link al repositorio
-https://github.com/AlejoMGarcia/estadisticas-deportivas
+https://github.com/AlejoMGarcia/TP2-TP5-ORT
